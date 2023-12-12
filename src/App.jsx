@@ -23,7 +23,7 @@ const posts = [
         { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
         { type: 'link', content: '👉 jane.design/doctorcare' },        
     ],
-    publishetAt: new Date('2023-11-22 10:44:00'),
+    publishedAt: new Date('2023-11-22 10:44:00'),
   },
 
   {
@@ -38,7 +38,7 @@ const posts = [
         { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
         { type: 'link', content: '👉 jane.design/doctorcare' },        
     ],
-    publishetAt: new Date('2023-11-27 11:00:00'),
+    publishedAt: new Date('2023-11-27 11:00:00'),
   },
 ]
 
@@ -55,7 +55,7 @@ export function App() {
                 <Post 
                   author= { post.author }
                   content= { post.content }
-                  publishetAt= { post.publishetAt }
+                  publishedAt= { post.publishedAt }
                 />
               )
           }) }
